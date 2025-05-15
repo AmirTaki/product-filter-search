@@ -118,6 +118,21 @@ const filterProduct = (value) =>{
     })
 }
 
+
+// Search button click
+
+document.getElementById("search").addEventListener("click", ()=>{
+    let  searchInput = document.getElementById('search-input')
+    let elements = document.querySelectorAll('.product-name')
+    let cards = document.querySelectorAll('.card');
+
+    // loop through all  elements
+    elements.forEach((element, index) => {
+
+        element.innerText.includes(searchInput.value.toUpperCase()) ? cards[index].classList.remove('hide') :  cards[index].classList.add('hide')
+    })
+})
+
 // Initiaylly display all products
 
 window.onload = () => {
