@@ -98,7 +98,7 @@ for (let i of products.data) {
 // parameter passed from button (parameters same as category)
 const filterProduct = (value) =>{
     let buttons = document.querySelectorAll('.button-value')
-    
+ 
     buttons.forEach(button => {
         value.toUpperCase() == button.innerText.toUpperCase() ?  button.classList.add('active') :  button.classList.remove('active')
     })
