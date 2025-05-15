@@ -94,3 +94,18 @@ for (let i of products.data) {
     card.appendChild(container)
     document.getElementById("products").appendChild(card)
 }
+
+// parameter passed from button (parameters same as category)
+const filterProduct = (value) =>{
+    let buttons = document.querySelectorAll('.button-value')
+    
+    buttons.forEach(button => {
+        value.toUpperCase() == button.innerText.toUpperCase() ?  button.classList.add('active') :  button.classList.remove('active')
+    })
+}
+
+// Initiaylly display all products
+
+window.onload = () => {
+    filterProduct('all')
+}
