@@ -102,6 +102,27 @@ const filterProduct = (value) =>{
     buttons.forEach(button => {
         value.toUpperCase() == button.innerText.toUpperCase() ?  button.classList.add('active') :  button.classList.remove('active')
     })
+
+
+    // select all cards
+    let elements = document.querySelectorAll('.card');
+    elements.forEach(element =>{
+        // display all cards on all       
+        if(value == "all") {
+           element.classList.remove('hide')   
+        } 
+        else { 
+            if(element.classList.contains(value)){
+                console.log(element.classList)
+                element.classList.remove('hide')
+            }
+            else {
+                console.log(element.classList)
+                element.classList.add('hide')
+            }
+        }
+   
+    })
 }
 
 // Initiaylly display all products
