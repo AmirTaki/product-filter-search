@@ -3,14 +3,14 @@ let products = {
         productsName : "Regular White T-shirt",
         caterogry : "Topwear",
         price : "30",
-        image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgjbWiGWyCKrM6V8Wgm2kid4HcW5RsAosJU5PLQyoQKY93t1raA9WU3tpuKIOYcMG0T6A&usqp=CAU"
+        image : "https://i5.walmartimages.com/seo/T-Shirts-Performance-T-Shirt_0c1f95b2-f687-4e23-9a06-20030f290f2e_1.cd79f49134c2037976890c3373db7708.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
 
     },
     {
         productsName : "Beige Short Skirt",
         caterogry : "Bottmwear",
         price : "49",
-        image : "https://djerfavenue.com/media/images/112_1552a32a85-10088-1004-20-original.jpg/?auto=format&w=1600&q=80"
+        image : "https://www.yoox.com/images/items/13/13918312SL_14_f.jpg?impolicy=crop&width=387&height=490"
     },
     {
         productsName : "Sporty SmartWatch ",
@@ -23,21 +23,21 @@ let products = {
         productsName : "Basic Knitted Top",
         caterogry : "Topwear",
         price : "29",
-        image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo141otJDZG3IJF3XZdZnwsFLCJ6tQmCcBIXjw9FMG64DirYqMOefTX4RsD1yTSziKe18&usqp=CAU"
+        image : "https://static.e-stradivarius.net/assets/public/7e09/5305/6a1d410181c5/acc4f7a779a2/08557350428-m/08557350428-m.jpg?ts=1725879021484&w=730"
 
     },
     {
         productsName : "Black Leather Jacket",
         caterogry : "Jacket",
         price : "129",
-        image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU95__wA6N4XgkmTgMdatV1JfeHUSfwf6RATkmBZMur3hpCsyq9Shlrti9jDigtfIF8W4&usqp=CAU"
+        image : "https://m.media-amazon.com/images/I/918oAJD+GgL._AC_UY1000_.jpg"
 
     },
     {
         productsName : "Stylish Pink Trousers",
         caterogry : "Bottomwear",
         price : "89",
-        image : "https://img.tatacliq.com/images/i13/437Wx649H/MP000000018469553_437Wx649H_202308261342521.jpeg"
+        image : "https://imagescdn.thecollective.in/img/app/product/4/492039-3607674.jpg?w=500&auto=format"
     },
     {
         productsName : "Brown Men's Jacket",
@@ -50,7 +50,7 @@ let products = {
         productsName : "Comfy Gray Pants",
         caterogry : "Bottomwear",
         price : "49",
-        image : "https://cdn.occtoo-media.com/995cf62a-7759-4681-a516-370aaabfd325/2e994858-da23-575e-8132-244978299d6a/248979-7345_01.jpg?format=large&outputFormat=webp"
+        image : "https://designsfromjess.com/wp-content/uploads/2016/02/974MP_OX_CPOHP.png"
 
     }
 ]
