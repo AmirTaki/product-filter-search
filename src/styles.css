@@ -34,8 +34,19 @@ body {
     margin-left: 1em;
     background-color: #6759ff;
     color : #fff;
-    border-radius: .5rem;
-    margin-top: .5rem;
+    border-radius: 5px;
+    margin-top: .5em;
 }
 
-
+.button-value {
+    border: 2px solid #6759ff;
+    padding: 1em 2.2em;
+    border-radius: 3em;   
+    background-color: transparent;
+    color :#6759ff;
+     cursor: pointer;
+}
+.active {
+    background-color: #6759ff;
+    color : #fff
+}
