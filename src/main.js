@@ -8,7 +8,7 @@ let products = {
     },
     {
         productsName : "Beige Short Skirt",
-        caterogry : "Bottomwear",
+        caterogry : "Bottmwear",
         price : "49",
         image : "https://djerfavenue.com/media/images/112_1552a32a85-10088-1004-20-original.jpg/?auto=format&w=1600&q=80"
     },
@@ -61,7 +61,7 @@ for (let i of products.data) {
    // create card
     let card = document.createElement('div')
     // card should have category and should stay hidden initially 
-    card.classList.add('card', 'i.category', 'hide')
+    card.classList.add('card', i.caterogry, 'hide')
    
     // img div
     let imgContainer = document.createElement('div')
@@ -107,19 +107,12 @@ const filterProduct = (value) =>{
     // select all cards
     let elements = document.querySelectorAll('.card');
     elements.forEach(element =>{
-        // display all cards on all       
+        // display all cards on all    
         if(value == "all") {
            element.classList.remove('hide')   
         } 
         else { 
-            if(element.classList.contains(value)){
-                console.log(element.classList)
-                element.classList.remove('hide')
-            }
-            else {
-                console.log(element.classList)
-                element.classList.add('hide')
-            }
+            element.classList.contains(value) ? element.classList.remove('hide') : element.classList.add('hide');
         }
    
     })
