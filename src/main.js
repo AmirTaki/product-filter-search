@@ -72,8 +72,25 @@ for (let i of products.data) {
     
     image.setAttribute("src", i.image)
 
+    // append Child
     imgContainer.appendChild(image)
     card.appendChild(imgContainer)
-    console.log(card)
+
+    // container
+    let container = document.createElement('div')  
+    container.classList.add('container')
+    //product name
+    let name = document.createElement('h5')
+    name.classList.add("product-name")  
+    name.innerText = i.productsName.toUpperCase()
+    container.appendChild(name)
+    
+    
+    // price
+    let price = document.createElement('h6')
+    price.innerText = "$" + i.price
+    container.appendChild(price)
+
+    card.appendChild(container)
     document.getElementById("products").appendChild(card)
 }
