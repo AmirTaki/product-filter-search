@@ -60,8 +60,8 @@ for (let i of products.data) {
   
    // create card
     let card = document.createElement('div')
-    // card should have category
-    card.classList.add('card', 'i.category')
+    // card should have category and should stay hidden initially 
+    card.classList.add('card', 'i.category', 'hide')
    
     // img div
     let imgContainer = document.createElement('div')
